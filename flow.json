@@ -57,7 +57,7 @@
         ],
         "x": 74,
         "y": 1199,
-        "w": 1392,
+        "w": 1402,
         "h": 242
     },
     {
@@ -101,9 +101,9 @@
             "5eac798ba55596fa",
             "268eab6bed65f4fa"
         ],
-        "x": 74,
+        "x": 64,
         "y": 1499,
-        "w": 1562,
+        "w": 1572,
         "h": 362
     },
     {
@@ -3549,7 +3549,7 @@
         "y": 120,
         "wires": [
             [
-                "af644dbbc8091f35"
+                "bb689c51f330f4a7"
             ]
         ]
     },
@@ -3559,7 +3559,8 @@
         "z": "0345ec73c62175aa",
         "name": "link in 5",
         "links": [
-            "af644dbbc8091f35"
+            "af644dbbc8091f35",
+            "bb689c51f330f4a7"
         ],
         "x": 235,
         "y": 440,
@@ -3568,19 +3569,6 @@
                 "b1ce5a9e24329da1"
             ]
         ]
-    },
-    {
-        "id": "af644dbbc8091f35",
-        "type": "link out",
-        "z": "0345ec73c62175aa",
-        "name": "link out 6",
-        "mode": "link",
-        "links": [
-            "3126fdea73c7a648"
-        ],
-        "x": 705,
-        "y": 120,
-        "wires": []
     },
     {
         "id": "aa3d3e6b554ed6e0",
@@ -3758,12 +3746,12 @@
         "width": "4",
         "height": "1",
         "passthru": false,
-        "label": "play",
+        "label": "Start",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
-        "icon": "play",
+        "icon": "",
         "payload": "",
         "payloadType": "str",
         "topic": "topic",
@@ -3801,6 +3789,19 @@
         "statusType": "auto",
         "x": 550,
         "y": 380,
+        "wires": []
+    },
+    {
+        "id": "bb689c51f330f4a7",
+        "type": "link out",
+        "z": "0345ec73c62175aa",
+        "name": "link out 6",
+        "mode": "link",
+        "links": [
+            "3126fdea73c7a648"
+        ],
+        "x": 735,
+        "y": 120,
         "wires": []
     },
     {
