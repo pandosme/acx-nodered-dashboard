@@ -405,7 +405,7 @@
         "cert": "",
         "key": "",
         "ca": "",
-        "certname": "fred_client_cert.pem",
+        "certname": "fred_client_cert.crt",
         "keyname": "fred_client_cert.key",
         "caname": "",
         "servername": "",

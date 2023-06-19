@@ -1,4 +1,6 @@
-flows_cred.json
+projects/
+context/
+flow_cred.json
 package-lock.json
 .settings.js
 .config.nodes.json
@@ -6,7 +8,7 @@ package-lock.json
 .config.projects.json
 .config.users.json
 .config.users.json.backup
-.flows.json.backup
-.flows_cred.json.backup
+.flow.json.backup
+.flow_cred.json.backup
 .config.projects.json.backup
 .config.runtime.json
