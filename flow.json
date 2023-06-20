@@ -101,9 +101,9 @@
             "5eac798ba55596fa",
             "268eab6bed65f4fa"
         ],
-        "x": 64,
+        "x": 74,
         "y": 1499,
-        "w": 1572,
+        "w": 1562,
         "h": 362
     },
     {
@@ -322,7 +322,7 @@
             }
         },
         "site": {
-            "name": "Node-RED Dashboard",
+            "name": "ACX Dashboard",
             "hideToolbar": "false",
             "allowSwipe": "false",
             "lockMenu": "false",
