@@ -372,7 +372,7 @@
     {
         "id": "799825b5f6d63e63",
         "type": "ui_group",
-        "name": "Add Seiral and OAK",
+        "name": "Add with Serial and OAK",
         "tab": "6c5a14f23bc37164",
         "order": 4,
         "disp": true,
@@ -455,6 +455,26 @@
             {
                 "field": "name",
                 "title": "Name",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "model",
+                "title": "Model",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "firmware",
+                "title": "Firmare",
                 "width": "",
                 "align": "left",
                 "formatter": "plaintext",
@@ -2972,7 +2992,8 @@
         "y": 580,
         "wires": [
             [
-                "7b1b1bc9efd98439"
+                "7b1b1bc9efd98439",
+                "406d07e0751f98ec"
             ]
         ]
     },
@@ -3173,6 +3194,22 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "406d07e0751f98ec",
+        "type": "debug",
+        "z": "76eb9921998a7262",
+        "name": "debug 94",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 580,
+        "wires": []
     },
     {
         "id": "3c1634c1b53bc6b1",
